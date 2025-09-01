@@ -1,12 +1,12 @@
 {
-    "display_name": "Template Extension",
+    "display_name": "Multiplayer",
     "loading_order": 1,
     "requires": [],
     "optional": [],
     "js": "dist/index.js",
     "css": "",
-    "author": "Cohee1207",
+    "author": "march-taylor, advitt",
     "version": "1.0.0",
-    "homePage": "https://github.com/Cohee1207/Extension-ReactTemplate",
+    "homePage": "https://github.com/march-taylor/SillyTavern-Multiplayer",
     "auto_update": true
 }
