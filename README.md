@@ -1,15 +1,26 @@
-# Extension-ReactTemplate
-Template repository for SillyTavern extensions using React and Webpack.
+# SillyTavern-Multiplayer
 
-## How to use
+Это расширение для SillyTavern
+, которое превращает ролевые чаты в настоящий мультиплеер. Теперь пользователи могут общаться напрямую друг с другом (P2P), а при желании подключать AI в общий чат.
 
-1. Click "Use this template" on the GitHub page.
-2. Create a new repository and clone it to your local machine.
-3. Open the repository in your code editor and run `npm install`.
-4. Edit the `manifest.json` file.
-5. Write the source code in `src` directory.
-6. When you're ready to test - run `npm run build`.
-7. Minimized bundle will appear in `dist`, ready to be plugged into SillyTavern.
+Работает как обычное расширение ST, без сторонних приложений.
 
-> [!TIP]
-> If you want to test your extension live, clone the repo into the `/public/scripts/extensions/third-party` of your SillyTavern installation.
+Поддерживает ролевые сессии 1-на-1.
+
+Можно призывать AI в общий чат для кооперативного RP.
+
+Встроено в интерфейс SillyTavern.
+
+⚙️ Установка
+
+Скачайте или клонируйте репозиторий:
+
+git clone https://github.com/username/SillyTavern-Multiplayer.git
+
+
+Скопируйте папку SillyTavern-Multiplayer в директорию:
+
+SillyTavern/extensions/
+
+
+Запустите SillyTavern — расширение загрузится автоматически.
